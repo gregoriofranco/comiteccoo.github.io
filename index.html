@@ -6,341 +6,51 @@
   <title>Comité CCOO Venture</title>
   <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH" crossorigin="anonymous">
   <script src="https://kit.fontawesome.com/889ddb7991.js" crossorigin="anonymous"></script>
-  <script>
-  function mostrarDiv(id) {
-    document.getElementById(id).style.display = "block";
-  }
-  function ocultarDiv(id) {
-    document.getElementById(id).style.display = "none";
-  }
-  </script>
 </head>
 
 <body>
-   <div class="container-fluid text-bg-dark p-2">
-      <ul class="nav justify-content-center">
-      <li class="nav-item p-3">
-        <a href="#" onclick="mostrarDiv('cat'); ocultarDiv('es'); return false;" class="link-danger link-offset-2">CATALÀ</a>
-      </li>
-      <li class="nav-item p-3">
-        <a href="#" onclick="mostrarDiv('es'); ocultarDiv('cat'); return false;" class="link-warning link-offset-2">CASTELLANO</a>
-      </li>
-      </ul>
-  </div>
-    
-  <div class="container py-3">
 
-    <header class="pb-3 mb-4 border-bottom text-center">
-      <img src="img/ccoo_logo.jpg" alt="Logo CCOO Serveis" style="width: 130px">
-       <img src="img/logo-venture.jpg" alt="Logo Venture electronics Spain" style="width: 155px">
-    </header>
+  <!-- Navbar -->
+  <nav class="navbar navbar-dark bg-dark" aria-label="First navbar example">
+    <div class="container-fluid">
+      <a class="navbar-brand" href="index.html">Comité CCOO Venture</a>
+      <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarsExample01" aria-controls="navbarsExample01" aria-expanded="false" aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon"></span>
+      </button>
 
-<!-- DIV CASTELLANO-->
-    <div id="es" class="text-center">
-        <h1 class="text-secondary fw-bold text-bg-light p-2 rounded">Comité CCOO Venture</h1>
-            <div class="mt-3 p-4 bg-light border rounded-3">
-                <h2>¡Volvamos a votar...</h2>
-                <p>Como ya sabeis, el CMAC (Centro de Mediación, Arbitraje Y Conciliación) desestimó el recurso interpuesto por parte de la mesa electoral para impugnar la lista original de CC.OO y resolvío que se tienen que repetir las elecciones con la candidatura inicial. Serán el<strong> día 8 de mayo </strong> y esperamos la máxima participación por parte de todos nosotros.</p>
-                <h2>y volvamos a ganar!</h2>
-                <a href="https://drive.google.com/file/d/1LY6tOJVnEkLMOHV_aRZNDbrc3su8E1Kd/view?usp=drive_link" class="btn btn-primary mt-3" type="button">Resolución CMAC <i class="fa-regular fa-file-pdf"></i></a>
-          </div>
+      <div class="collapse navbar-collapse" id="navbarsExample01">
+        <ul class="navbar-nav me-auto mb-2">
+          <li class="nav-item">
+            <a class="nav-link active" aria-current="page" href="index.html">Home</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="equipo.html">Miembros del Comité</a>
+          </li>
+ 
+          <li class="nav-item dropdown">
+            <a class="nav-link dropdown-toggle" href="#" data-bs-toggle="dropdown" aria-expanded="false">IDIOMA</a>
+            <ul class="dropdown-menu">
+              <li><a class="dropdown-item" href="#">Catalán</a></li>
+              <li><a class="dropdown-item" href="#">Castellano</a></li>
+            </ul>
+          </li>
+        </ul>
 
-          <div class="container-fluid py-3 text-center">
-                  <h1 class="text-success p-3 display-3"><i class="fa-solid fa-face-smile"></i></h1>
-                  <h3><i class="fa-solid fa-thumbs-up text-success"></i> Nos gusta nuestro trabajo</h3>
-                  <h3><i class="fa-solid fa-thumbs-up text-success"></i> Nos gustan las cosas bien hechas</h3>
-                  <h3><i class="fa-solid fa-thumbs-up text-success"></i> Nos gusta progresar</h3>
-                  <h3><i class="fa-solid fa-thumbs-up text-success"></i> Nos gustan los acuerdos</h3>
-                  <h1 class="text-danger p-3 display-3"><i class="fa-solid fa-face-frown"></i></h1>
-                  <h3><i class="fa-solid fa-hand text-danger"></i> No nos gusta la perdida de poder adquisitivo</h3>
-                  <h3><i class="fa-solid fa-hand text-danger"></i> No nos gustan los cambios contínuos de horario</h3>
-                  <h3><i class="fa-solid fa-hand text-danger"></i> No nos gustan los ertes </h3>
-                  <h3><i class="fa-solid fa-hand text-danger"></i> No nos gusta la absorcion del plus de antiguedad </h3>
-                  <h3><i class="fa-solid fa-hand text-danger"></i> No nos gustan las ETT y los contratos fijos discontínuos</h3>
-                  <h1 class="text-warning p-3 display-3"><i class="fa-solid fa-arrow-down"></i></h1>
-                 
-                  <div class=" row  justify-content-center">
-                    <div class="p-2 col col-md-4 bg-info text-white mb-3 rounded border border-warning border-3 shadow-sm">
-                      <h3>Don't worry, work happy</h3>
-                    </div>
-                  </div>
-
-                  
-                  <h2>Por un futuro mejor</h2>
-                  <h1 class="display-4 fw-bold">¡Vótanos!</h1>
-            </div>
-
-<!-- DIV LISTA -->
-        <div class="p-3 text-white bg-dark rounded-3">
-          <div class="row">
-              <div class="p-1 col-6 col-md-3">
-                  <div class="text-center">
-                    <img alt="retrato" class="rounded-circle mb-3" src="img/01.jpg" style="height:10vh" loading="lazy"></br>
-                    <small editable="inline"><strong>1. Alejandro Ramírez</strong></small>
-                  </div>
-              </div>
-              <div class="p-1 col-6 col-md-3">
-                  <div class="text-center">
-                    <img alt="retrato" class="rounded-circle mb-3" src="img/02.jpg" style="height:10vh" loading="lazy"></br>
-                    <small editable="inline"><strong>2. Sergi Barquero</strong></small>
-                  </div>
-              </div>
-              <div class="p-1 col-6 col-md-3">
-                  <div class="text-center">
-                    <img alt="retrato" class="rounded-circle mb-3" src="img/03.jpg" style="height:10vh" loading="lazy"></br>
-                    <small editable="inline"><strong>3. Rosario Páez</strong></small>
-                  </div>
-              </div>
-              <div class="p-1 col-6 col-md-3">
-                  <div class="text-center">
-                    <img alt="retrato" class="rounded-circle mb-3" src="img/04.jpg" style="height:10vh" loading="lazy"></br>
-                    <small editable="inline"><strong>4. Luis Peral</strong></small>
-                  </div>
-              </div>
-              <div class="p-1 col-6 col-md-3">
-                  <div class="text-center">
-                    <img alt="retrato" class="rounded-circle mb-3" src="img/05.jpg" style="height:10vh" loading="lazy"></br>
-                    <small editable="inline"><strong>5. Nacho Pérez</strong></small>
-                  </div>
-              </div>
-              <div class="p-1 col-6 col-md-3">
-                  <div class="text-center">
-                    <img alt="retrato" class="rounded-circle mb-3" src="img/06.jpg" style="height:10vh" loading="lazy"></br>
-                    <small editable="inline"><strong>6. Victor Rocco</strong></small>
-                  </div>
-              </div>
-              <div class="p-1 col-6 col-md-3">
-                  <div class="text-center">
-                    <img alt="retrato" class="rounded-circle mb-3" src="img/07.jpg" style="height:10vh" loading="lazy"></br>
-                    <small editable="inline"><strong>7. Yaiza Corral</strong></small>
-                  </div>
-              </div>
-              <div class="p-1 col-6 col-md-3">
-                  <div class="text-center">
-                    <img alt="retrato" class="rounded-circle mb-3" src="img/08.jpg" style="height:10vh" loading="lazy"></br>
-                    <small editable="inline"><strong>8. Ferran Torrens</strong></small>
-                  </div>
-              </div>
-              <div class="p-1 col-6 col-md-3">
-                  <div class="text-center">
-                    <img alt="retrato" class="rounded-circle mb-3" src="img/09.jpg" style="height:10vh" loading="lazy"></br>
-                    <small editable="inline"><strong>9. David Pérez</strong></small>
-                  </div>
-              </div>
-              <div class="p-1 col-6 col-md-3">
-                  <div class="text-center">
-                    <img alt="retrato" class="rounded-circle mb-3" src="img/10.jpg" style="height:10vh" loading="lazy"></br>
-                    <small editable="inline"><strong>10. Gregorio Franco</strong></small>
-                  </div>
-              </div>
-              <div class="p-1 col-6 col-md-3">
-                  <div class="text-center">
-                    <img alt="retrato" class="rounded-circle mb-3" src="img/11.jpg" style="height:10vh" loading="lazy"></br>
-                    <small editable="inline"><strong>11. Enric Tubau</strong></small>
-                  </div>
-              </div>
-              <div class="p-1 col-6 col-md-3">
-                  <div class="text-center">
-                    <img alt="retrato" class="rounded-circle mb-3" src="img/12.jpg" style="height:10vh" loading="lazy"></br>
-                    <small editable="inline"><strong>12. Fernando González</strong></small>
-                  </div>
-              </div>
-              <div class="p-1 col-6 col-md-3">
-                  <div class="text-center">
-                    <img alt="retrato" class="rounded-circle mb-3" src="img/13.jpg" style="height:10vh" loading="lazy"></br>
-                    <small editable="inline"><strong>13. Pere Sánchez</strong></small>
-                  </div>
-              </div>
-              <div class="p-1 col-6 col-md-3">
-                  <div class="text-center">
-                    <img alt="retrato" class="rounded-circle mb-3" src="img/14.jpg" style="height:10vh" loading="lazy"></br>
-                    <small editable="inline"><strong>14. Aïda Torres</strong></small>
-                  </div>
-              </div>
-              <div class="p-1 col-6 col-md-3">
-                  <div class="text-center">
-                    <img alt="retrato" class="rounded-circle mb-3" src="img/15.jpg" style="height:10vh" loading="lazy"></br>
-                    <small editable="inline"><strong>15. Albert Oller</strong></small>
-                  </div>
-              </div>
-              <div class="p-1 col-6 col-md-3">
-                  <div class="text-center">
-                    <img alt="retrato" class="rounded-circle mb-3" src="img/16.jpg" style="height:10vh" loading="lazy"></br>
-                    <small editable="inline"><strong>16. Xavi Roura</strong></small>
-                  </div>
-              </div>
-              <div class="p-1 col-6 col-md-3">
-                  <div class="text-center">
-                    <img alt="retrato" class="rounded-circle mb-3" src="img/17.jpg" style="height:10vh" loading="lazy"></br>
-                    <small editable="inline"><strong>17. Rafael Casafont</strong></small>
-                  </div>
-              </div>
-
-          </div>
-        </div>   
-
-<!-- end DIV LISTA -->
-          <div class="mt-3 p-4 bg-light border rounded-3">
-                <h2>¿Qué es lo que te preocupa?</h2>
-                <p>Cualquier duda que tengas podrás comentarla al Comité. Estaremos asesorados por profesionales del derecho laboral. No dudes en consultar lo que te pase por la cabeza. El Comité se lo trasladará a sus asesores para poder responderte.</p>
-                <a href="mailto:comite.ccoo.venture.spain@gmail.com" class="btn btn-primary" type="button">Consúltanos <i class="fa-solid fa-paper-plane"></i></a>
-          </div>
+      </div>
     </div>
-<!-- end DIV CASTELLANO-->
-<!-- DIV CATALÀ-->
-    <div id="cat" style="display: none;" class="text-center">
-      <h1 class="text-secondary fw-bold text-bg-light p-3 rounded">Comité CCOO Venture</h1>
-            <div class="mt-3 p-4 bg-light border rounded-3">
-                <h2>tornem a votar!</h2>
-                <p>Com ja sabeu, el CMAC (Centre de Mediació, Arbitratge i Conciliació) va desestimar el recurs interposat per part de la mesa electoral per impugnar la llista original de CCOO i va resoldre que s'han de repetir les eleccions amb la candidatura inicial. Seran el <strong>dia 8 de maig</strong> i esperem la màxima participació per part de tots nosaltres.</p>
-                <h2>i tornem a guanyar!</h2>
-                <a href="https://drive.google.com/file/d/1LY6tOJVnEkLMOHV_aRZNDbrc3su8E1Kd/view?usp=drive_link" class="btn btn-primary mt-3" type="button">Resolución CMAC <i class="fa-regular fa-file-pdf"></i></a>
-          </div>
+  </nav>
 
-          <div class="container-fluid py-3 text-center">
-                  <h1 class="text-success p-3 display-3"><i class="fa-solid fa-face-smile"></i></h1>
-                  <h3><i class="fa-solid fa-thumbs-up text-success"></i> Ens agrada el nostre treball</h3>
-                  <h3><i class="fa-solid fa-thumbs-up text-success"></i> Ens agraden les coses ben fetes</h3>
-                  <h3><i class="fa-solid fa-thumbs-up text-success"></i> Ens agrada progressar</h3>
-                  <h3><i class="fa-solid fa-thumbs-up text-success"></i> Ens agraden els acords</h3>
-                  <h1 class="text-danger p-3 display-3"><i class="fa-solid fa-face-frown"></i></h1>
-                  <h3><i class="fa-solid fa-hand text-danger"></i> No ens agrada la pèrdua de poder adquisitiu</h3>
-                  <h3><i class="fa-solid fa-hand text-danger"></i> No ens agraden els canvis continus d´horari</h3>
-                  <h3><i class="fa-solid fa-hand text-danger"></i> No ens agraden els ertos </h3>
-                  <h3><i class="fa-solid fa-hand text-danger"></i> No ens agraden les ETT i els contractes fixos discontinus</h3>
-                  <h3><i class="fa-solid fa-hand text-danger"></i> No ens agrada l'absorció del plus d'antiguitat</h3>
-                  <h1 class="text-warning p-3 display-3"><i class="fa-solid fa-arrow-down"></i></h1>
-                 
-                  <div class=" row  justify-content-center">
-                    <div class="p-2 col col-md-4 bg-info text-white mb-3 rounded border border-warning border-3 shadow-sm">
-                      <h3>Don't worry, work happy</h3>
-                    </div>
-                  </div>
+  <!-- end Navbar -->
 
-                  
-                  <h2>Per un futur millor</h2>
-                  <h1 class="display-4 fw-bold">Vota'ns!</h1>
-            </div>
 
-<!-- DIV LISTA -->
-        <div class="p-3 text-white bg-dark rounded-3">
-          <div class="row">
-              <div class="p-1 col-6 col-md-3">
-                  <div class="text-center">
-                    <img alt="retrato" class="rounded-circle mb-3" src="img/01.jpg" style="height:10vh" loading="lazy"></br>
-                    <small editable="inline"><strong>1. Alejandro Ramírez</strong></small>
-                  </div>
-              </div>
-              <div class="p-1 col-6 col-md-3">
-                  <div class="text-center">
-                    <img alt="retrato" class="rounded-circle mb-3" src="img/02.jpg" style="height:10vh" loading="lazy"></br>
-                    <small editable="inline"><strong>2. Sergi Barquero</strong></small>
-                  </div>
-              </div>
-              <div class="p-1 col-6 col-md-3">
-                  <div class="text-center">
-                    <img alt="retrato" class="rounded-circle mb-3" src="img/03.jpg" style="height:10vh" loading="lazy"></br>
-                    <small editable="inline"><strong>3. Rosario Páez</strong></small>
-                  </div>
-              </div>
-              <div class="p-1 col-6 col-md-3">
-                  <div class="text-center">
-                    <img alt="retrato" class="rounded-circle mb-3" src="img/04.jpg" style="height:10vh" loading="lazy"></br>
-                    <small editable="inline"><strong>4. Luis Peral</strong></small>
-                  </div>
-              </div>
-              <div class="p-1 col-6 col-md-3">
-                  <div class="text-center">
-                    <img alt="retrato" class="rounded-circle mb-3" src="img/05.jpg" style="height:10vh" loading="lazy"></br>
-                    <small editable="inline"><strong>5. Nacho Pérez</strong></small>
-                  </div>
-              </div>
-              <div class="p-1 col-6 col-md-3">
-                  <div class="text-center">
-                    <img alt="retrato" class="rounded-circle mb-3" src="img/06.jpg" style="height:10vh" loading="lazy"></br>
-                    <small editable="inline"><strong>6. Victor Rocco</strong></small>
-                  </div>
-              </div>
-              <div class="p-1 col-6 col-md-3">
-                  <div class="text-center">
-                    <img alt="retrato" class="rounded-circle mb-3" src="img/07.jpg" style="height:10vh" loading="lazy"></br>
-                    <small editable="inline"><strong>7. Yaiza Corral</strong></small>
-                  </div>
-              </div>
-              <div class="p-1 col-6 col-md-3">
-                  <div class="text-center">
-                    <img alt="retrato" class="rounded-circle mb-3" src="img/08.jpg" style="height:10vh" loading="lazy"></br>
-                    <small editable="inline"><strong>8. Ferran Torrens</strong></small>
-                  </div>
-              </div>
-              <div class="p-1 col-6 col-md-3">
-                  <div class="text-center">
-                    <img alt="retrato" class="rounded-circle mb-3" src="img/09.jpg" style="height:10vh" loading="lazy"></br>
-                    <small editable="inline"><strong>9. David Pérez</strong></small>
-                  </div>
-              </div>
-              <div class="p-1 col-6 col-md-3">
-                  <div class="text-center">
-                    <img alt="retrato" class="rounded-circle mb-3" src="img/10.jpg" style="height:10vh" loading="lazy"></br>
-                    <small editable="inline"><strong>10. Gregorio Franco</strong></small>
-                  </div>
-              </div>
-              <div class="p-1 col-6 col-md-3">
-                  <div class="text-center">
-                    <img alt="retrato" class="rounded-circle mb-3" src="img/11.jpg" style="height:10vh" loading="lazy"></br>
-                    <small editable="inline"><strong>11. Enric Tubau</strong></small>
-                  </div>
-              </div>
-              <div class="p-1 col-6 col-md-3">
-                  <div class="text-center">
-                    <img alt="retrato" class="rounded-circle mb-3" src="img/12.jpg" style="height:10vh" loading="lazy"></br>
-                    <small editable="inline"><strong>12. Fernando González</strong></small>
-                  </div>
-              </div>
-              <div class="p-1 col-6 col-md-3">
-                  <div class="text-center">
-                    <img alt="retrato" class="rounded-circle mb-3" src="img/13.jpg" style="height:10vh" loading="lazy"></br>
-                    <small editable="inline"><strong>13. Pere Sánchez</strong></small>
-                  </div>
-              </div>
-              <div class="p-1 col-6 col-md-3">
-                  <div class="text-center">
-                    <img alt="retrato" class="rounded-circle mb-3" src="img/14.jpg" style="height:10vh" loading="lazy"></br>
-                    <small editable="inline"><strong>14. Aïda Torres</strong></small>
-                  </div>
-              </div>
-              <div class="p-1 col-6 col-md-3">
-                  <div class="text-center">
-                    <img alt="retrato" class="rounded-circle mb-3" src="img/15.jpg" style="height:10vh" loading="lazy"></br>
-                    <small editable="inline"><strong>15. Albert Oller</strong></small>
-                  </div>
-              </div>
-              <div class="p-1 col-6 col-md-3">
-                  <div class="text-center">
-                    <img alt="retrato" class="rounded-circle mb-3" src="img/16.jpg" style="height:10vh" loading="lazy"></br>
-                    <small editable="inline"><strong>16. Xavi Roura</strong></small>
-                  </div>
-              </div>
-              <div class="p-1 col-6 col-md-3">
-                  <div class="text-center">
-                    <img alt="retrato" class="rounded-circle mb-3" src="img/17.jpg" style="height:10vh" loading="lazy"></br>
-                    <small editable="inline"><strong>17. Rafael Casafont</strong></small>
-                  </div>
-              </div>
-
-          </div>
-        </div>   
-
-<!-- end DIV LISTA -->
-
-          <div class="mt-3 p-4 bg-light border rounded-3">
-                <h2>Què et preocupa?</h2>
-                <p>Qualsevol dubte que tinguis podràs comentar-ho al Comitè. Estarem assessorats per professionals del dret laboral. No dubtis a consultar el que et passi pel cap. El Comitè els traslladarà als seus assessors per poder respondre't.</p>
-                <a href="mailto:comite.ccoo.venture.spain@gmail.com" class="btn btn-primary" type="button">Consulta'ns <i class="fa-solid fa-paper-plane"></i></a>
-          </div>
-    </div>
-
-  </div>
+  <div class="container-fluid">
+    <img src="img/undraw_Blooming_re_2kc4.png" alt="" class="img-fluid">
+      <div class="col-12 mt-3 p-4 bg-light border rounded-3">
+                    <h4>Mantente informado</h4>
+                    <p>Envía tu solicitud para pedir que te incluyan en la lista de correo de las decisiones que se tomen en las reuniones del Comité con la Empresa.</p>
+                    <a href="mailto:comite.ccoo.venture.spain@gmail.com" class="btn btn-primary" type="button">Consulta'ns <i class="fa-solid fa-paper-plane"></i></a>
+      </div>
+</div>
 
 <footer class="pt-3 mt-4 text-muted border-top text-center">
   <p class="p-1">&copy; Comité CC.OO Venture</p> 
